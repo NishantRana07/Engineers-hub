@@ -4,7 +4,7 @@ import Hero from './components/hero'
 import './App.css'
 function App() {
   return (
-    <div className='bg-red-500'>
+    <div>
       <Nav/>
       <Hero/>
     </div>
