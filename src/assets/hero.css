@@ -1,0 +1,43 @@
+.body
+{
+    height:80vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5rem;
+}
+
+.para
+{
+    width:70%;
+    COLOR:WHITE;
+    font-family:Bebas Neue;
+    letter-spacing: 2px;
+}
+.IMG
+{
+    width:30%;
+}
+.IMG img
+{
+    height:80%;
+    width:80%;
+}
+.typing {
+    display: inline-block;
+    border-right: 2px solid rgb(32, 78, 186);
+    white-space: nowrap;
+    overflow: hidden;
+    color:white;
+  }
+  
+  @keyframes caret-blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .typing {
+    animation: caret-blink 0.7s infinite;
+  }
