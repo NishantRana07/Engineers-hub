@@ -3,7 +3,7 @@ import '../assets/nav.css';
 
 function Nav() {
   return (
-    <nav className='navbar flex justify-between p-2 items-center overflow-hidden flex-wrap'>
+    <nav className='navbar flex justify-between p-4 items-center overflow-hidden flex-wrap'>
       {/* Left side for logo */}
       <div className="left">
         <div className='logo h-[30px] w-[90px] my-auto mt-2 ml-4'>
