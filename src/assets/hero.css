@@ -26,12 +26,14 @@
 }
 .typing {
     display: inline-block;
-    background-color:red;
+    max-width: fit-content; /* Ensures it only takes up necessary width */
+
     border-right: 2px solid rgb(32, 78, 186);
     white-space: nowrap;
     overflow: hidden;
-    color:white;
-  }
+    color: white;
+}
+
   
   @keyframes caret-blink {
     50% {
