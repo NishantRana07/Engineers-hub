@@ -25,7 +25,8 @@
     width:80%;
 }
 .typing {
-    display: inline;
+    display: inline-block;
+    background-color:red;
     border-right: 2px solid rgb(32, 78, 186);
     white-space: nowrap;
     overflow: hidden;
