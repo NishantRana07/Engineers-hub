@@ -139,4 +139,33 @@
   .quantity {
     display: none;
   }
+ 
 
+  /* Link Transition */
+.right{
+
+/* Hover effect: Scale slightly and change color */
+a:hover {
+  color: #009dff; /* Adjust hover color as desired */
+  transform: scale(1.05);
+}
+
+/* Underline animation */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: #009dff; /* Adjust color as needed */
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+}
