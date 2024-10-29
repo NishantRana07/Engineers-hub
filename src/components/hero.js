@@ -51,7 +51,7 @@ function Hero() {
                     <p className="top text-[40px] text-[#62acdd]">Empowering Futures, Transforming Careers.</p>
                     <p className="below text-[60px]">
                         Transforming the way of <br />
-                        <span id="changingWord" className="typing"> {currentText} &nbsp;</span>
+                        <span id="changingWord" className="typing  "> {currentText} &nbsp;</span>
                     </p>
                     <p className="bottom text-[20px] text-[#62acdd]">
                         <i>"Face challenges as opportunities, navigating innovation."</i>
