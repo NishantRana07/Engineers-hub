@@ -25,15 +25,12 @@
     width:80%;
 }
 .typing {
-    display: inline-block;
-    max-width: fit-content; /* Ensures it only takes up necessary width */
-
+    display: inline;
     border-right: 2px solid rgb(32, 78, 186);
     white-space: nowrap;
     overflow: hidden;
-    color: white;
-}
-
+    color:white;
+  }
   
   @keyframes caret-blink {
     50% {
