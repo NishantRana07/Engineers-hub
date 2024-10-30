@@ -9,7 +9,7 @@ function Nav() {
   };
 
   return (
-    <nav className="navbar" id="navbar">
+    <nav className="navbar w-screen" id="navbar">
       <div className="left">
         <a href="#">
         <div className='logo h-[30px] w-[90px] my-auto mt-2 ml-4'>
