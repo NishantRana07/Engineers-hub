@@ -9,7 +9,7 @@ function Nav() {
   };
 
   return (
-    <nav className="navbar w-screen" id="navbar">
+    <nav className="navbar fixed top-0 left-0 right-0 z-100 flex justify-between items-center bg-[#021838fa] p-5 overflow-hidden w-screen" id="navbar">
       <div className="left">
         <a href="#">
         <div className='logo h-[30px] w-[90px] my-auto mt-2 ml-4'>
