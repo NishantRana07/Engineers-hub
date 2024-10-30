@@ -12,7 +12,7 @@ function App() {
     <div>
     
       <Hero/>
-     
+     <Courses/>
       <Mentors/>
       <Features/> 
       <Reviews/>
