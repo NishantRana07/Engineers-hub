@@ -1,15 +1,20 @@
+* {
+  box-sizing: border-box; /* Ensures padding and borders are included in width */
+}
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:#021838fa;
-    padding: 10px 30px;
-    position: fixed;
-    top:0;
-    z-index:100;
-    font-family:Changa;
-    width:100% /* Ensures proper context for fixed elements */
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #021838fa;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  font-family: Changa;
+  width: 100%; /* Ensures proper context for fixed elements */
+  overflow: hidden; /* Prevents overflow */
+}
   
   .navbar .ham {
     display: none;
