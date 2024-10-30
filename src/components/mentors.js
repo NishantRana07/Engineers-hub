@@ -4,9 +4,9 @@ import '../assets/mentors.css';
 
 // Import images
 import person1 from '../assets/1st-person.jpg';
-import person2 from '../assets/2nd-person.avif';
+import person2 from '../assets/2nd-person.jpg';
 import person3 from '../assets/3rd-person.jpeg';
-import person4 from '../assets/4th-person.avif';
+import person4 from '../assets/4th-person.jpg';
 import person5 from '../assets/5th-person.png';
 
 const Mentors = () => {
