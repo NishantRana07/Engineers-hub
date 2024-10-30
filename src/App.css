@@ -84,11 +84,14 @@ padding:0px;
         font-size:100%;
         text-align: center;
     }
-    .para
+    .body
     {
         width:100%;
     }
-    
+    .body .para
+    {
+        margin: 0px auto;
+    }
     .body img 
     {
         display: none;
