@@ -12,8 +12,7 @@ function App() {
     <div>
     
       <Hero/>
-      <div className="per"><p>OUR COURSES</p></div>
-      <div class="products"><Course/></div>
+     
       <Mentors/>
       <Features/> 
       <Reviews/>
